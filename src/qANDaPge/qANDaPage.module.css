@@ -1,0 +1,92 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     box-sizing: border-box;
+     
+}
+.question {
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(67, 35, 160);
+    text-shadow: 2px 2px 7px rgb(67, 35, 160);
+   
+    height: 54px;
+}
+.wrapper {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+    height: 100px;
+}
+.arrow {
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.rightArrow {
+    float: right;
+    margin-right: 70px;
+}
+.leftArrow {
+    float: left;
+    margin-left: 70px;
+}
+.formRow {
+    margin-top: 10px;
+}
+
+.formRow input {
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    line-height: 40px;
+    background: none;
+    border-width: 0;
+    border-bottom: 2px solid rgb(67, 35, 160);
+    transition: all 0.2s ease;
+ }
+ .formRow input:focus {
+    outline: 0;
+ }
+ .checkButton {
+     float: right;
+     margin-right: 70px;
+     margin-top: 10px;
+ }
+
+
+ .checkButton {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #000000;
+    background: rgb(123, 102, 187);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+  }
+  .checkButton:hover {
+    background: rgb(67, 35, 160);
+    box-shadow: 0 15px 20px rgb(67, 35, 160);
+    color: white;
+    transform: translateY(-7px);
+  }
+  @media screen and (max-width: 280px) {
+    .formRow {
+        margin-top: 100px;
+    }
+    .arrow {
+        margin-top: 100px;
+    }
+  }
